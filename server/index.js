@@ -1,28 +1,22 @@
 require("dotenv").config()
 const express = require('express');
-
 const cors = require('cors')
 const morgan = require('morgan')
 
 const app = express()
+
+//Import Routes
+const playerRouter = require("./routes/playersRoute")
+
 
 //Required Middle wares
 app.use(express.json())
 app.use(cors())
 app.use(morgan("dev"))
 
-const createCsvLogs = (arr) => {
 
-}
 
-app.get("/find_artist", async (req, res) => {
-    try {
-
-    } catch (error) {
-        res.status(404).send(error.message)
-    }
-
-})
+app.use("/api/v1/players", playerRouter)
 
 const port = process.env.PORT || 8080
 
