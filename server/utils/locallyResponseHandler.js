@@ -9,5 +9,5 @@ exports.createLocalResponse = (res, statusCode) => {
         myArtistList.push(listItem)
         counter++;
     } while (counter < 4);
-    res.status(statusCode).json(myArtistList)
+    res.status(statusCode).json({ localResponse: myArtistList })
 }
