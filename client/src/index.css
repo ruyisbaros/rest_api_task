@@ -26,123 +26,96 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  }
-  
-  
-  button {
-    cursor: pointer;
-  }
-  
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  li {
-    list-style: none;
-    padding: 0;
-  }
-  
-  img {
-    object-fit: cover;
-  }
-  
-  .main {
-    width: 95vw;
-    margin: 0 auto;
-    min-height: 100vh;
-    overflow: hidden;
-  }
-  
-  .banner {
-    width: 100%;
-    height: 60vh;
-    background-image: url(./assets/f2.jpeg);
-    background-size: cover;
-    background-position: top;
-    clip-path: polygon(0 0, 100% 0, 100% 35vh, 0 60vh);
-  }
-  
-  .form {
-    width: 100%;
-    height: 200px;
-    text-align: center;
-  
-  }
-  
-  .form h1 {
-    margin-bottom: 30px;
-    color: var(--primary-purple)
-  }
-  
-  .form input {
-    width: 50%;
-    padding: 10px 5px;
-    border-radius: 10px;
-    border: 1.5px solid var(--primary-bg-search);
-    transition: all .5s linear;
-    outline: none;
-  }
-  
-  .form input:focus {
-    border-color: var(--primary-bright-green)
-  }
-  
-  .form button {
-    display: block;
-    width: 200px;
-    height: 40px;
-    margin: 10px auto;
-    border: none;
-    border-radius: 5px;
-    text-transform: uppercase;
-    background-color: var(--primary-bright-green);
-    color: var(--primary-navy);
-    font-weight: 600;
-    font-size: 15px;
-    letter-spacing: 1.5px;
-    transition: all .3s linear;
-  }
-  
-  .form button:hover {
-    transform: translateY(-2px)
-  }
-  
-  .main .source_container {
-    width: 80%;
-    margin: auto;
-    height: 100%;
-  }
-  
-  .source_container .source_box {
-    margin-bottom: 30px;
-    width: 100%;
-    height: 300px;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 1px 3px var(--primary-backdrop);
-    border-radius: 10px;
-  }
-  
-  .source_container .source_box img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
 }
 
- .source_box .art_name {
-   flex: 1;
-   text-align: center;
-   font-size: 50px;
- }
 
- .source_box .the_link {
-   background-color: var(--primary-custom-pink);
-   padding: 10px 70px;
-   border-radius: 5px;
-   box-shadow: 0 1px 1px var(--primary-brick-red);
-   color: var(--primary-alt-white)
- }
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  object-fit: cover;
+}
+
+.main {
+  width: 95vw;
+  margin: 0 auto;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.banner {
+  width: 100%;
+  height: 60vh;
+  background-image: url(./assets/f2.jpeg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 35vh, 0 60vh);
+}
+
+.form {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+
+}
+
+.form h1 {
+  margin-bottom: 30px;
+  color: var(--primary-purple)
+}
+
+.form input {
+  width: 50%;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: 1.5px solid var(--primary-bg-search);
+  transition: all .5s linear;
+  outline: none;
+}
+
+.form input:focus {
+  border-color: var(--primary-bright-green)
+}
+
+.form button {
+  display: block;
+  width: 200px;
+  height: 40px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: var(--primary-bright-green);
+  color: var(--primary-navy);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  transition: all .3s linear;
+  position: relative;
+}
+
+.form button:hover {
+  transform: translateY(-2px)
+}
+.form button:active {
+  transform: translateY(0);
+}
+.main .source_container {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}

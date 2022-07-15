@@ -1,0 +1,30 @@
+ .source_container .source_box {
+     margin-bottom: 30px;
+     width: 100%;
+     height: 300px;
+     padding: 0 20px;
+     display: flex;
+     align-items: center;
+     box-shadow: 0 1px 3px var(--primary-backdrop);
+     border-radius: 10px;
+ }
+
+ .source_container .source_box img {
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+ }
+
+ .source_box .art_name {
+     flex: 1;
+     text-align: center;
+     font-size: 50px;
+ }
+
+ .source_box .the_link {
+     background-color: var(--primary-custom-pink);
+     padding: 10px 70px;
+     border-radius: 5px;
+     box-shadow: 0 1px 1px var(--primary-brick-red);
+     color: var(--primary-alt-white)
+ }
