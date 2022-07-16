@@ -14,7 +14,7 @@ function App() {
 
   const searchHandler = async (e) => {
     e.preventDefault()
-    setApiContent([])
+    setApiContent([]) 
     try {
       setLoading(true)
       const { data } = await axios.post(`/api/v1/players/find_artist`, { searchText })
@@ -26,7 +26,7 @@ function App() {
         setLocalContent(data.localResponse)
       }
 
-
+      setSearchText("")
 
     } catch (error) {
       console.log(error.message);
