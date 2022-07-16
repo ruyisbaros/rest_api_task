@@ -7,7 +7,7 @@
 
 # Create a simple Full-Stack last-fm search engine[2022]
 
-Welcome to my simple and fun music search engine api. When you want to listen music, I wanted you not to lose yourself in the ocean of Google, Youtube etc. And I created this simple but very effective application for you. Just type the name of the artist you are looking for and press enter. That'all... You will receive lots of music links with names relevant to your search text on my page. If no results returned from the last.fm, app will select for you randomly artists and create a list which from my page's own source. Have fun...
+Welcome to my simple and fun music search engine api. When you want to listen music, I wanted you not to lose yourself in the ocean of Google, Youtube etc. And I created this simple but very effective application for you. Just type the name of the artist you are looking for and press enter. That's all... You will receive lots of music links with names relevant to your search text on my page. If no results returned from the last.fm, app will select for you randomly artists and create a list which from my page's own source. Have fun...
 
 ## Languages, Libraries and Frameworks used
 
@@ -22,22 +22,26 @@ Welcome to my simple and fun music search engine api. When you want to listen mu
 ### 1. Clone repo
 
 ```
-$ git clone https://github.com/ruyisbaros/rest_api_task.git (On the terminal paste this code in which folder you want to clone the api and press enter)
+$ git clone https://github.com/ruyisbaros/rest_api_task.git (On the terminal open the folder which you want to clone the repository and then paste this code, press enter)
 $ cd rest_api_task (You will be in the relevant folder after )
-$code .  (VSC will open)
+$code .  (VSC will open. Be sure that you are in relevant folder)
 ```
+### 2. Get API KEY
+- https://www.last.fm/api/account/create visit this website and get your API key
 
-
-### 2. Run Backend
+### 3. Run Backend
 
 ```
-# On the VSC open 'new terminal' with clicking 'terminal' segment.
-$ cd server
+# Now your cloned repo opened with VSC. On the VSC open 'new terminal' with clicking 'terminal' segment.
+# You should get an API key from last.fm and you should determine a port number for your backend server. Then you should go client/package.json and reset port number for proxy which you determined to backend server. "proxy":"http://localhost:(Your port number)". Anyway, just for this repo let's go shorter way:)
+# In the server folder create a .env file. And paste these API_KEY=bd273a033e22d435d6b05d64aa86d2ec
+PORT=4000
+$ cd server 
 $ npm install
 $ npm start
 ```
 
-### 3. Run Frontend
+### 4. Run Frontend
 
 ```
 # open new terminal or better duplicate your terminal
