@@ -18,15 +18,15 @@ function App() {
     try {
       setLoading(true)
       const { data } = await axios.post(`/api/v1/players/find_artist`, { searchText })
-      console.log(data);
+      //console.log(data);
       setLoading(false)
-      setSearchText("")
       if (data.apiResponse) {
         setApiContent(data.apiResponse)
       } else if (data.localResponse) {
         setLocalContent(data.localResponse)
       }
 
+      setSearchText("")
 
     } catch (error) {
       console.log(error.message);
