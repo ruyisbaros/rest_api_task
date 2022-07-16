@@ -22,7 +22,8 @@ Welcome to my simple and fun music search engine api. When you want to listen mu
 ### 1. Clone repo
 
 ```
-$ git clone https://github.com/ruyisbaros/rest_api_task.git (On the terminal open the folder which you want to clone the repository and then paste this code, press enter)
+$ git clone https://github.com/ruyisbaros/rest_api_task.git 
+(On the terminal open the folder which you want to clone the repository and then paste this code, press enter)
 $ cd rest_api_task (You will be in the relevant folder after )
 $code .  (VSC will open. Be sure that you are in relevant folder)
 ```
