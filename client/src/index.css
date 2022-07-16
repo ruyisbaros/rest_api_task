@@ -75,6 +75,7 @@ img {
 
 .form h1 {
   margin-bottom: 30px;
+  /* text-transform: capitalize; */
   color: var(--primary-purple)
 }
 

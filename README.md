@@ -7,7 +7,7 @@
 
 # Create a simple Full-Stack last-fm search engine[2022]
 
-Welcome to our simple and fun music search engine api. When you want to listen music, we wanted you not to lose yourself in the ocean of Google, Youtube etc. And we created this simple but very effective application for you. Just type the name of the artist you are looking for and press enter. That'all... You will receive lots of music links with names relevant to your search text on our page. If there is no result from the last.fm, we offer you random artists from our page's own source. Have fun...
+Welcome to my simple and fun music search engine api. When you want to listen music, I wanted you not to lose yourself in the ocean of Google, Youtube etc. And I created this simple but very effective application for you. Just type the name of the artist you are looking for and press enter. That'all... You will receive lots of music links with names relevant to your search text on my page. If no results returned from the last.fm, app will select for you randomly artists and create a list which from my page's own source. Have fun...
 
 ## Languages, Libraries and Frameworks used
 
@@ -15,7 +15,7 @@ Welcome to our simple and fun music search engine api. When you want to listen m
 - JavaScript
 - React: Components, Props, Axios, States
 - HTML5 and CSS3
-- Csvjson: Convert Json responses to CSV format and save it in Server folder
+- Csvjson: Convert Json responses to CSV format and save it as a file in Server folder
 
 ## Run Locally
 

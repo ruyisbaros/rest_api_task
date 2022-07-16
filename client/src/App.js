@@ -39,7 +39,7 @@ function App() {
 
       </div>
       <form onSubmit={searchHandler} className="form">
-        <h1>Welcome to <span style={{ color: 'red' }}>Last.fm</span> searching engine</h1>
+        <h1>Welcome to <span style={{ color: 'red' }}>Last.fm</span> Searching Engine</h1>
         <input type="text" placeholder="Type an Artist name..." value={searchText}
           onChange={(e) => setSearchText(e.target.value)} />
         <button type="submit">
