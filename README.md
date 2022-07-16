@@ -9,13 +9,13 @@
 
 Welcome to our simple and fun music search engine api. When you want to listen music, we wanted you not to lose yourself in the ocean of Google, Youtube etc. And we created this simple but very effective application for you. Just type the name of the artist you are looking for and press enter. That'all... You will receive lots of music links with names relevant to your search text on our page. If there is no result from the last.fm, we offer you random artists from our page's own source. Have fun...
 
-## Languages, Libraries and frameworks used
+## Languages, Libraries and Frameworks used
 
-- Node & Express: Create Node.js REST API, Server side fetching with Axios
+- Node & Express: Create Node.js REST API, Server Side Fetching with Axios
 - JavaScript
 - React: Components, Props, Axios, States
 - HTML5 and CSS3
-- Csvjson: Convert Json file to CSV format
+- Csvjson: Convert Json responses to CSV format and save it in Server folder
 
 ## Run Locally
 
@@ -46,6 +46,6 @@ $ npm install
 $ npm start
 ```
 
-## Visit our website to see our Digital Products, Software Solutions and more...
+## Developer
 
-- Development Team: [INCEDO](https://incedo.de/)
+- [Ahmet Erdönmez](https://www.linkedin.com/in/ahmet-erdonmez-085bb8141/)
