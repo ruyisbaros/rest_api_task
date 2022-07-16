@@ -27,16 +27,18 @@ $ cd rest_api_task (You will be in the relevant folder after )
 $code .  (VSC will open. Be sure that you are in relevant folder)
 ```
 ### 2. Get API KEY
+
 - https://www.last.fm/api/account/create visit this website and get your API key
 
 ### 3. Run Backend
 
+- Now your cloned repo opened with VSC. On the VSC open 'new terminal' with clicking 'terminal' segment.
+- Normal wise you should get an API key from last.fm and you should determine a port number for your backend server. 
+- Go client/package.json and reset port number with your one. 
+ "proxy":"http://localhost:(Your port number)".
+ - Anyway, just for this repo let's go shorter way:)
+- In the server folder create a .env file. And paste these API_KEY=bd273a033e22d435d6b05d64aa86d2ec
 ```
-# Now your cloned repo opened with VSC. On the VSC open 'new terminal' with clicking 'terminal' segment.
-# Normal wise you should get an API key from last.fm and you should determine a port number for your backend server. 
-# Then you should go client/package.json and reset port number with your one. 
-# "proxy":"http://localhost:(Your port number)". Anyway, just for this repo let's go shorter way:)
-# In the server folder create a .env file. And paste these API_KEY=bd273a033e22d435d6b05d64aa86d2ec
 PORT=4000
 $ cd server 
 $ npm install
