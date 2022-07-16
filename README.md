@@ -24,7 +24,7 @@ Welcome to our simple and fun music search engine api. When you want to listen m
 ```
 $ git clone https://github.com/ruyisbaros/rest_api_task.git (On the terminal paste this code in which folder you want to clone the api and press enter)
 $ cd rest_api_task (You will be in the relevant folder after )
-$code .  (VSC will open with our app)
+$code .  (VSC will open)
 ```
 
 
