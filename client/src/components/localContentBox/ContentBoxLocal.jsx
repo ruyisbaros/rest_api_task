@@ -4,6 +4,7 @@ import "../apiContentBox/contentBoxApi.css"
 const ContentBoxLocal = ({ image, artistName, url }) => {
     return (
         <div className="source_box">
+
             <img src={image} alt="" />
             <div className="art_name">
                 {artistName}

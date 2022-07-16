@@ -26,7 +26,7 @@ function App() {
         setLocalContent(data.localResponse)
       }
 
-      setSearchText("")
+
 
     } catch (error) {
       console.log(error.message);
@@ -39,7 +39,7 @@ function App() {
 
       </div>
       <form onSubmit={searchHandler} className="form">
-        <h1>Welcome to bla bla</h1>
+        <h1>Welcome to <span style={{ color: 'red' }}>Last.fm</span> searching engine</h1>
         <input type="text" placeholder="Type an Artist name..." value={searchText}
           onChange={(e) => setSearchText(e.target.value)} />
         <button type="submit">
@@ -54,11 +54,14 @@ function App() {
             <ContentBoxAPI key={index} {...item} />
           ))
         }
+
         {
           localContent.length > 0 &&
+
           localContent.map((item, index) => (
             <ContentBoxLocal key={index} {...item} />
           ))
+
         }
       </div>
     </div>
