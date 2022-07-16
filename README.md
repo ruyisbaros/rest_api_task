@@ -33,7 +33,9 @@ $code .  (VSC will open. Be sure that you are in relevant folder)
 
 ```
 # Now your cloned repo opened with VSC. On the VSC open 'new terminal' with clicking 'terminal' segment.
-# You should get an API key from last.fm and you should determine a port number for your backend server. Then you should go client/package.json and reset port number for proxy which you determined to backend server. "proxy":"http://localhost:(Your port number)". Anyway, just for this repo let's go shorter way:)
+# Normal wise you should get an API key from last.fm and you should determine a port number for your backend server. 
+# Then you should go client/package.json and reset port number with your one. 
+# "proxy":"http://localhost:(Your port number)". Anyway, just for this repo let's go shorter way:)
 # In the server folder create a .env file. And paste these API_KEY=bd273a033e22d435d6b05d64aa86d2ec
 PORT=4000
 $ cd server 
