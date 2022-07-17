@@ -112,15 +112,28 @@ img {
 .form button:hover {
   transform: translateY(-2px)
 }
+
 .form button:active {
   transform: translateY(0);
 }
+
 .main .source_container {
   width: 80%;
   margin: auto;
   height: 100%;
 }
+@media (max-width:800px) {
+  .banner {
+
+    height: 40vh;
+    background-image: url(./assets/f2.jpeg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 30vh, 0 40vh);
+  }
+}
 @media (max-width:668px) {
+  
   .main .source_container {
     width: 100%;
 
