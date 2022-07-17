@@ -1,9 +1,10 @@
-import { useState } from 'react';
-import data from './mySource.json'
+import { useState, useEffect } from 'react';
 import axios from 'axios'
 import ContentBoxAPI from './components/apiContentBox/ContentBoxAPI';
 import ContentBoxLocal from './components/localContentBox/ContentBoxLocal';
 import Loading from './components/loadingAnimation/Loading';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
 
@@ -11,6 +12,11 @@ function App() {
   const [loading, setLoading] = useState(false)
   const [apiContent, setApiContent] = useState([])
   const [localContent, setLocalContent] = useState([])
+
+  //Card animation
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  }, [])
 
   const searchHandler = async (e) => {
     e.preventDefault()

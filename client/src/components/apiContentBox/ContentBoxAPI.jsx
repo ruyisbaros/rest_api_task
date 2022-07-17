@@ -4,7 +4,7 @@ import "./contentBoxApi.css"
 
 const ContentBoxAPI = ({ image, name, url }) => {
     return (
-        <div className="source_box">
+        <div data-aos="fade-right" className="source_box">
             <img src={image[4]["#text"]} alt="" />
             <div className="art_name">
                 {name}

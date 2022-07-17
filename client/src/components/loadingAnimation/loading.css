@@ -7,7 +7,6 @@
     border-bottom-color: #000;
     border-left-color: #000;
     border-right-color: #000;
-    position: relative;
     animation: turner 1s infinite linear;
 }
 

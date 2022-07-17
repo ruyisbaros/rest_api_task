@@ -16,6 +16,7 @@ Welcome to my simple and fun music search engine api. When you want to listen mu
 - React: Components, Props, Axios, States
 - HTML5 and CSS3
 - Csvjson: Convert Json responses to CSV format and save it as a file in Server folder
+- AOS: Very nice scroll animation for cards
 
 ## Run Locally
 
@@ -35,7 +36,7 @@ $code .  (VSC will open. Be sure that you are in relevant folder)
 
 - Now your cloned repo opened with VSC. On the VSC open 'new terminal' with clicking 'terminal' segment.
 - Normal wise you should get an API key from last.fm and you should determine a port number for your backend server. 
-- Go client/package.json and reset port number with your one. 
+- Then go client/package.json and reset port number with your one. 
  "proxy":"http://localhost:(Your port number)".
  - Anyway, just for this repo let's go shorter way:)
 - In the server folder create a .env file. And paste these API_KEY=bd273a033e22d435d6b05d64aa86d2ec PORT=4000
